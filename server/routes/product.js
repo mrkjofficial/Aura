@@ -2,7 +2,7 @@ const router = require("express").Router();
 
 const Product = require("../models/Product");
 
-const { verifyTokenAndAdmin, verifyTokenAndAuthorization } = require("../middleware/verification");
+const { verifyTokenAndAdmin } = require("../middleware/verification");
 
 // CREATE PRODUCT
 router.post("/", verifyTokenAndAdmin, async (req, res) => {
@@ -32,7 +32,7 @@ router.get("/", async (req, res) => {
 	try {
 		let products;
 		if (qNew) {
-			products = await Product.find().sort({ createdAt: -1 }).limit(5);
+			products = await Product.find().sort({ createdAt: -1 }).limit(1);
 		} else if (qCategory) {
 			products = await Product.find({ categories: { $in: [qCategory] } });
 		} else {

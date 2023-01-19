@@ -6,6 +6,10 @@ const mongoose = require("mongoose");
 
 const authRoute = require("./routes/auth");
 
+const cartRoute = require("./routes/cart");
+
+const orderRoute = require("./routes/order");
+
 const productRoute = require("./routes/product");
 
 const userRoute = require("./routes/user");
@@ -28,6 +32,10 @@ mongoose
 	});
 
 app.use("/api/auth", authRoute);
+
+app.use("/api/cart", cartRoute);
+
+app.use("/api/orders", orderRoute);
 
 app.use("/api/products", productRoute);
 
