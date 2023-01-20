@@ -2,7 +2,7 @@ const router = require("express").Router();
 
 const User = require("../models/User");
 
-const { verifyTokenAndAdmin, verifyTokenAndAuthorization } = require("../middleware/verification");
+const { verifyTokenAndAdmin, verifyTokenAndAuthorization } = require("../middlewares/verification");
 
 // GET USER
 router.get("/find/:id", verifyTokenAndAdmin, async (req, res) => {

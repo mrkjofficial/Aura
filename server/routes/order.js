@@ -2,7 +2,7 @@ const router = require("express").Router();
 
 const Order = require("../models/Order");
 
-const { verifyTokenAndAdmin, verifyTokenAndAuthorization } = require("../middleware/verification");
+const { verifyTokenAndAdmin, verifyTokenAndAuthorization } = require("../middlewares/verification");
 
 // CREATE ORDER
 router.post("/", verifyTokenAndAuthorization, async (req, res) => {
