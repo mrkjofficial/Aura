@@ -1,0 +1,52 @@
+.navbar {
+	height: 50px;
+	position: sticky;
+	width: 100%;
+	z-index: 999;
+	.navbar__wrapper {
+		align-items: center;
+		display: flex;
+		height: 100%;
+		justify-content: space-between;
+		padding: 0px 20px;
+		.navbar--left {
+			.logo {
+				cursor: pointer;
+				font-size: 30px;
+				font-weight: bold;
+				height: 100%;
+			}
+		}
+		.navbar--right {
+			align-items: center;
+			display: flex;
+			justify-content: center;
+			.icon-container {
+				cursor: pointer;
+				margin-right: 10px;
+				position: relative;
+				.icon-badge {
+					align-items: center;
+					background-color: red;
+					border-radius: 50%;
+					color: #fff;
+					display: flex;
+					font-size: 10px;
+					font-weight: bold;
+					height: 15px;
+					justify-content: center;
+					position: absolute;
+					right: 0px;
+					top: -5px;
+					width: 15px;
+				}
+			}
+			.user-avatar {
+				border-radius: 50%;
+				cursor: pointer;
+				height: 40px;
+				width: 40px;
+			}
+		}
+	}
+}
