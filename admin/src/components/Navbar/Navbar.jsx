@@ -1,8 +1,6 @@
 import React from "react";
 import "./Navbar.scss";
-import NotificationsNoneIcon from "@mui/icons-material/NotificationsNone";
-import LanguageIcon from "@mui/icons-material/Language";
-import SettingsIcon from "@mui/icons-material/Settings";
+import { NotificationsNone, Language, Settings } from "@mui/icons-material";
 
 const Navbar = () => {
 	return (
@@ -13,14 +11,14 @@ const Navbar = () => {
 				</div>
 				<div className="navbar--right">
 					<div className="icon-container">
-						<NotificationsNoneIcon />
+						<NotificationsNone />
 						<span className="icon-badge">2</span>
 					</div>
 					<div className="icon-container">
-						<LanguageIcon />
+						<Language />
 					</div>
 					<div className="icon-container">
-						<SettingsIcon />
+						<Settings />
 					</div>
 					<img
 						src="https://images.pexels.com/photos/1526814/pexels-photo-1526814.jpeg"
