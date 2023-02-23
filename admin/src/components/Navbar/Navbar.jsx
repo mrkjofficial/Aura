@@ -1,4 +1,3 @@
-import React from "react";
 import "./Navbar.scss";
 import { NotificationsNone, Language, Settings } from "@mui/icons-material";
 
