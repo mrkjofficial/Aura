@@ -1,0 +1,68 @@
+.new-users {
+	border-radius: 10px;
+	box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+	flex: 1;
+	margin: 0px 20px;
+	padding: 20px;
+
+	.new-users__title {
+		font-size: 24px;
+		font-weight: 600;
+	}
+
+	.new-users__list {
+		list-style: none;
+		margin: 0;
+		padding: 0;
+
+		.new-users__list-item {
+			align-items: center;
+			display: flex;
+			justify-content: space-between;
+			margin: 25px 0px;
+
+			.new-users__user {
+				display: flex;
+				.new-users__avatar {
+					margin: 0px 10px;
+					.new-users__user-img {
+						border-radius: 50%;
+						height: 40px;
+						object-fit: cover;
+						width: 40px;
+					}
+				}
+
+				.new-users__info {
+					display: flex;
+					flex-direction: column;
+					margin: 0px 10px;
+					.new-users__name {
+						font-weight: 600;
+					}
+
+					.new-users__email {
+						font-weight: 300;
+					}
+				}
+			}
+
+			.new-users__button {
+				align-items: center;
+				background-color: #4caba6;
+				border: none;
+				border-radius: 10px;
+				color: #fff;
+				cursor: pointer;
+				display: flex;
+				justify-content: center;
+				padding: 10px;
+
+				.new-users__display-icon {
+					font-size: 16px;
+					margin-right: 5px;
+				}
+			}
+		}
+	}
+}
