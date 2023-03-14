@@ -1,3 +1,17 @@
 .users {
 	flex: 4;
 }
+
+.user {
+	align-items: center;
+	display: flex;
+	justify-content: center;
+}
+
+.user-img {
+	border-radius: 50%;
+	height: 30px;
+	margin-right: 10px;
+	object-fit: cover;
+	width: 30px;
+}

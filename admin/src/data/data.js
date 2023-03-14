@@ -1,0 +1,221 @@
+export const monthly_active_users = [
+	{
+		id: "1",
+		Month: "Jan",
+		"Active Users": 4000,
+	},
+	{
+		id: "2",
+		Month: "Feb",
+		"Active Users": 3000,
+	},
+	{
+		id: "3",
+		Month: "Mar",
+		"Active Users": 5000,
+	},
+	{
+		id: "4",
+		Month: "Apr",
+		"Active Users": 4000,
+	},
+	{
+		id: "5",
+		Month: "May",
+		"Active Users": 6000,
+	},
+	{
+		id: "6",
+		Month: "Jun",
+		"Active Users": 5000,
+	},
+	{
+		id: "7",
+		Month: "Jul",
+		"Active Users": 7000,
+	},
+	{
+		id: "8",
+		Month: "Aug",
+		"Active Users": 6000,
+	},
+	{
+		id: "9",
+		Month: "Sep",
+		"Active Users": 8000,
+	},
+	{
+		id: "10",
+		Month: "Oct",
+		"Active Users": 7000,
+	},
+	{
+		id: "11",
+		Month: "Nov",
+		"Active Users": 9000,
+	},
+	{
+		id: "12",
+		Month: "Dec",
+		"Active Users": 8000,
+	},
+];
+
+export const new_users = [
+	{
+		id: "1",
+		img: "https://images.pexels.com/photos/1526814/pexels-photo-1526814.jpeg",
+		name: "John Smith",
+		email: "johnsmith@gmail.com",
+	},
+	{
+		id: "2",
+		img: "https://images.pexels.com/photos/1526814/pexels-photo-1526814.jpeg",
+		name: "Anna Keller",
+		email: "annakeller@gmail.com",
+	},
+	{
+		id: "3",
+		img: "https://images.pexels.com/photos/1526814/pexels-photo-1526814.jpeg",
+		name: "Harvey Roxie",
+		email: "harveyroxie@gmail.com",
+	},
+	{
+		id: "4",
+		img: "https://images.pexels.com/photos/1526814/pexels-photo-1526814.jpeg",
+		name: "Rossini Frances",
+		email: "rossinifrances@gmail.com",
+	},
+	{
+		id: "5",
+		img: "https://images.pexels.com/photos/1526814/pexels-photo-1526814.jpeg",
+		name: "Ferrara Clifford",
+		email: "ferraraclifford@gmail.com",
+	},
+];
+
+export const latest_transactions = [
+	{
+		id: "1",
+		img: "https://images.pexels.com/photos/1526814/pexels-photo-1526814.jpeg",
+		name: "Ferrara Clifford",
+		date: "2 Jun 2021",
+		amount: "$122.00",
+		status: "pending",
+	},
+	{
+		id: "2",
+		img: "https://images.pexels.com/photos/1526814/pexels-photo-1526814.jpeg",
+		name: "Rossini Frances",
+		date: "2 Jun 2021",
+		amount: "$122.00",
+		status: "approved",
+	},
+	{
+		id: "3",
+		img: "https://images.pexels.com/photos/1526814/pexels-photo-1526814.jpeg",
+		name: "Harvey Roxie",
+		date: "2 Jun 2021",
+		amount: "$122.00",
+		status: "declined",
+	},
+	{
+		id: "4",
+		img: "https://images.pexels.com/photos/1526814/pexels-photo-1526814.jpeg",
+		name: "Anna Keller",
+		date: "2 Jun 2021",
+		amount: "$122.00",
+		status: "approved",
+	},
+	{
+		id: "5",
+		img: "https://images.pexels.com/photos/1526814/pexels-photo-1526814.jpeg",
+		name: "John Smith",
+		date: "2 Jun 2021",
+		amount: "$122.00",
+		status: "declined",
+	},
+];
+
+export const users = [
+	{
+		id: "1",
+		img: "https://images.pexels.com/photos/1526814/pexels-photo-1526814.jpeg",
+		name: "Jon Snow",
+		email: "jonsnow@gmail.com",
+		status: "Active",
+		transaction: "$120.00",
+	},
+	{
+		id: "2",
+		img: "https://images.pexels.com/photos/1526814/pexels-photo-1526814.jpeg",
+		name: "Cersei Lannister",
+		email: "cerseilannister@gmail.com",
+		status: "Active",
+		transaction: "$120.00",
+	},
+	{
+		id: "3",
+		img: "https://images.pexels.com/photos/1526814/pexels-photo-1526814.jpeg",
+		name: "Jaime Lannister",
+		email: "jaimelannister@gmail.com",
+		status: "Active",
+		transaction: "$120.00",
+	},
+	{
+		id: "4",
+		img: "https://images.pexels.com/photos/1526814/pexels-photo-1526814.jpeg",
+		name: "Arya Stark",
+		email: "aryastark@gmail.com",
+		status: "Active",
+		transaction: "$120.00",
+	},
+	{
+		id: "5",
+		img: "https://images.pexels.com/photos/1526814/pexels-photo-1526814.jpeg",
+		name: "Daenerys Targaryen",
+		email: "daenerystargaryen@gmail.com",
+		status: "Active",
+		transaction: "$120.00",
+	},
+	{
+		id: "6",
+		img: "https://images.pexels.com/photos/1526814/pexels-photo-1526814.jpeg",
+		name: "Ferrara Clifford",
+		email: "ferraraclifford@gmail.com",
+		status: "Active",
+		transaction: "$120.00",
+	},
+	{
+		id: "7",
+		img: "https://images.pexels.com/photos/1526814/pexels-photo-1526814.jpeg",
+		name: "Rossini Frances",
+		email: "rossinifrances@gmail.com",
+		status: "Active",
+		transaction: "$120.00",
+	},
+	{
+		id: "8",
+		img: "https://images.pexels.com/photos/1526814/pexels-photo-1526814.jpeg",
+		name: "Harvey Roxie",
+		email: "harveyroxie@gmail.com",
+		status: "Active",
+		transaction: "$120.00",
+	},
+	{
+		id: "9",
+		img: "https://images.pexels.com/photos/1526814/pexels-photo-1526814.jpeg",
+		name: "Anna Keller",
+		email: "annakeller@gmail.com",
+		status: "Active",
+		transaction: "$120.00",
+	},
+	{
+		id: "10",
+		img: "https://images.pexels.com/photos/1526814/pexels-photo-1526814.jpeg",
+		name: "John Smith",
+		email: "johnsmith@gmail.com",
+		status: "Active",
+		transaction: "$120.00",
+	},
+];

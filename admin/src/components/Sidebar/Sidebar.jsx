@@ -23,7 +23,7 @@ const Sidebar = () => {
 					<ul className="sidebar__list">
 						<li className="sidebar__list-item">
 							<LineStyle className="sidebar__icon" />
-							Home
+							<a href="/">Home</a>
 						</li>
 						<li className="sidebar__list-item">
 							<Timeline className="sidebar__icon" />
@@ -40,7 +40,7 @@ const Sidebar = () => {
 					<ul className="sidebar__list">
 						<li className="sidebar__list-item">
 							<PermIdentity className="sidebar__icon" />
-							Users
+							<a href="/users">Users</a>
 						</li>
 						<li className="sidebar__list-item">
 							<Storefront className="sidebar__icon" />
