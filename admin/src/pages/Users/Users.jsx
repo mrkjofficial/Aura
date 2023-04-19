@@ -1,7 +1,5 @@
 import "./Users.scss";
-
 import { DataGrid } from "@mui/x-data-grid";
-
 import { users } from "../../data/data.js";
 
 const columns = [
@@ -35,7 +33,7 @@ const columns = [
 const Users = () => {
 	return (
 		<div className="users">
-			<DataGrid rows={users} columns={columns} pageSize={5} rowsPerPageOptions={[10]} checkboxSelection />
+			<DataGrid className="users-table" rows={users} columns={columns} pageSize={5} rowsPerPageOptions={[10]} checkboxSelection />
 		</div>
 	);
 };

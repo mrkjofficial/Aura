@@ -1,8 +1,8 @@
+import "./Home.scss";
 import Chart from "../../components/Chart/Chart";
 import FeaturedInfo from "../../components/FeaturedInfo/FeaturedInfo";
 import NewUsers from "../../components/NewUsers/NewUsers";
 import LatestTransactions from "../../components/LatestTransactions/LatestTransactions";
-import "./Home.scss";
 import {monthly_active_users, new_users, latest_transactions} from "../../data/data.js";
 
 const Home = () => {
