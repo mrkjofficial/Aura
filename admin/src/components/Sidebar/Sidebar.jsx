@@ -1,4 +1,5 @@
 import "./Sidebar.scss";
+import { Link } from "react-router-dom";
 import {
 	LineStyle,
 	Timeline,
@@ -23,7 +24,7 @@ const Sidebar = () => {
 					<ul className="sidebar__list">
 						<li className="sidebar__list-item">
 							<LineStyle className="sidebar__icon" />
-							<a href="/">Home</a>
+							<Link to="/">Home</Link>
 						</li>
 						<li className="sidebar__list-item">
 							<Timeline className="sidebar__icon" />
@@ -40,7 +41,7 @@ const Sidebar = () => {
 					<ul className="sidebar__list">
 						<li className="sidebar__list-item">
 							<PermIdentity className="sidebar__icon" />
-							<a href="/users">Users</a>
+							<Link to="/users">Users</Link>
 						</li>
 						<li className="sidebar__list-item">
 							<Storefront className="sidebar__icon" />

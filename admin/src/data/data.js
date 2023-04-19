@@ -143,7 +143,7 @@ export const users = [
 		img: "https://images.pexels.com/photos/1526814/pexels-photo-1526814.jpeg",
 		name: "Jon Snow",
 		email: "jonsnow@gmail.com",
-		status: "Active",
+		status: "active",
 		transaction: "$120.00",
 	},
 	{
@@ -151,7 +151,7 @@ export const users = [
 		img: "https://images.pexels.com/photos/1526814/pexels-photo-1526814.jpeg",
 		name: "Cersei Lannister",
 		email: "cerseilannister@gmail.com",
-		status: "Active",
+		status: "inactive",
 		transaction: "$120.00",
 	},
 	{
@@ -159,7 +159,7 @@ export const users = [
 		img: "https://images.pexels.com/photos/1526814/pexels-photo-1526814.jpeg",
 		name: "Jaime Lannister",
 		email: "jaimelannister@gmail.com",
-		status: "Active",
+		status: "active",
 		transaction: "$120.00",
 	},
 	{
@@ -167,7 +167,7 @@ export const users = [
 		img: "https://images.pexels.com/photos/1526814/pexels-photo-1526814.jpeg",
 		name: "Arya Stark",
 		email: "aryastark@gmail.com",
-		status: "Active",
+		status: "inactive",
 		transaction: "$120.00",
 	},
 	{
@@ -175,7 +175,7 @@ export const users = [
 		img: "https://images.pexels.com/photos/1526814/pexels-photo-1526814.jpeg",
 		name: "Daenerys Targaryen",
 		email: "daenerystargaryen@gmail.com",
-		status: "Active",
+		status: "active",
 		transaction: "$120.00",
 	},
 	{
@@ -183,7 +183,7 @@ export const users = [
 		img: "https://images.pexels.com/photos/1526814/pexels-photo-1526814.jpeg",
 		name: "Ferrara Clifford",
 		email: "ferraraclifford@gmail.com",
-		status: "Active",
+		status: "inactive",
 		transaction: "$120.00",
 	},
 	{
@@ -191,7 +191,7 @@ export const users = [
 		img: "https://images.pexels.com/photos/1526814/pexels-photo-1526814.jpeg",
 		name: "Rossini Frances",
 		email: "rossinifrances@gmail.com",
-		status: "Active",
+		status: "active",
 		transaction: "$120.00",
 	},
 	{
@@ -199,7 +199,7 @@ export const users = [
 		img: "https://images.pexels.com/photos/1526814/pexels-photo-1526814.jpeg",
 		name: "Harvey Roxie",
 		email: "harveyroxie@gmail.com",
-		status: "Active",
+		status: "inactive",
 		transaction: "$120.00",
 	},
 	{
@@ -207,7 +207,7 @@ export const users = [
 		img: "https://images.pexels.com/photos/1526814/pexels-photo-1526814.jpeg",
 		name: "Anna Keller",
 		email: "annakeller@gmail.com",
-		status: "Active",
+		status: "active",
 		transaction: "$120.00",
 	},
 	{
@@ -215,7 +215,7 @@ export const users = [
 		img: "https://images.pexels.com/photos/1526814/pexels-photo-1526814.jpeg",
 		name: "John Smith",
 		email: "johnsmith@gmail.com",
-		status: "Active",
+		status: "inactive",
 		transaction: "$120.00",
 	},
 ];

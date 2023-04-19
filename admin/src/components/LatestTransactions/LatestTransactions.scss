@@ -10,65 +10,65 @@
 		font-weight: 600;
 	}
 	.latest-transactions__table {
-        border-spacing: 20px;
-        width: 100%;
+		border-spacing: 20px;
+		width: 100%;
 
 		.latest-transactions__table-row {
 			.latest-transactions__table-header {
-                font-size: 20px;
-                text-align: left;
+				font-size: 20px;
+				text-align: left;
 			}
 
 			.latest-transactions__user {
-                align-items: center;
-                display: flex;
+				align-items: center;
+				display: flex;
 
 				.latest-transactions__user-img {
 					border-radius: 50%;
 					height: 40px;
-                    margin-right: 10px;
+					margin-right: 10px;
 					object-fit: cover;
 					width: 40px;
 				}
 
 				.latest-transactions__user-name {
-                    font-weight: 600;
+					font-weight: 600;
 				}
 			}
 
 			.latest-transactions__date {
-                font-weight: 300;
+				font-weight: 300;
 			}
 
 			.latest-transactions__amount {
-                font-weight: 300;
+				font-weight: 300;
 			}
 
 			.latest-transactions__status {
-                .latest-transactions__button {
-                    border: none;
-                    border-radius: 10px;
-                    cursor: pointer;
-                    max-width: 80px;
-                    padding: 10px;
-                    text-transform: capitalize;
-                    width: 100%;
+				.latest-transactions__button {
+					border: none;
+					border-radius: 10px;
+					cursor: pointer;
+					max-width: 80px;
+					padding: 10px;
+					text-transform: capitalize;
+					width: 100%;
 
-                    &.approved {
-                        background-color: #e5faf2;
-                        color: #3bb077;
-                    }
+					&.approved {
+						background-color: #e5faf2;
+						color: #3bb077;
+					}
 
-                    &.pending {
-                        background-color: #ebf1fe;                        ;
-                        color: #2a7ade;
-                    }
+					&.pending {
+						background-color: #ebf1fe;
+						color: #2a7ade;
+					}
 
-                    &.declined {
-                        background-color: #fff0f1;
-                        color: #d95087;
-                    }
-                }
+					&.declined {
+						background-color: #fff0f1;
+						color: #d95087;
+					}
+				}
 			}
 		}
 	}

@@ -1,23 +1,100 @@
 .users {
 	display: flex;
 	flex: 5;
-}
+	flex-direction: column;
 
-.user {
-	align-items: center;
-	display: flex;
-	justify-content: center;
-}
+	.users__title-container {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
 
-.user-img {
-	border-radius: 50%;
-	height: 30px;
-	margin-right: 10px;
-	object-fit: cover;
-	width: 30px;
-}
+		.users__title {
+			font-size: 32px;
+			font-weight: 600;
+		}
 
-.users-table {
-	border-radius: 10px;
-	box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+		.users__add-button {
+			background-color: #4caba6;
+			border: none;
+			border-radius: 10px;
+			color: white;
+			cursor: pointer;
+			padding: 10px;
+			width: 80px;
+		}
+	}
+
+	.users__table {
+		border-radius: 10px;
+		box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+		.users__name {
+			align-items: center;
+			display: flex;
+			justify-content: center;
+
+			.users__user-img {
+				border-radius: 50%;
+				height: 30px;
+				margin-right: 10px;
+				object-fit: cover;
+				width: 30px;
+			}
+		}
+
+		.users__status {
+			align-items: center;
+			display: flex;
+			justify-content: center;
+			text-transform: capitalize;
+
+			.users__status-indicator {
+				border-radius: 50%;
+				height: 10px;
+				margin-right: 10px;
+				width: 10px;
+
+				&.active {
+					color: #4caba6;
+				}
+
+				&.inactive {
+					color: #f24405;
+				}
+			}
+		}
+
+		.users__actions {
+			align-items: center;
+			display: flex;
+			justify-content: center;
+
+			.users__actions-edit {
+				background: none;
+				border: none;
+				color: #fa7f08;
+				cursor: pointer;
+				margin: 0 5px;
+				outline: none;
+
+				.users__actions-edit-icon {
+					height: 25px;
+					width: 25px;
+				}
+			}
+
+			.users__actions-delete {
+				background: none;
+				border: none;
+				color: #f24405;
+				cursor: pointer;
+				margin: 0 5px;
+				outline: none;
+
+				.users__actions-delete-icon {
+					height: 25px;
+					width: 25px;
+				}
+			}
+		}
+	}
 }

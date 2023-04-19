@@ -11,7 +11,7 @@
 			margin-bottom: 10px;
 
 			.sidebar__title {
-				color: #1B7F7A;
+				color: #1b7f7a;
 				font-size: 12px;
 			}
 
@@ -32,7 +32,8 @@
 						margin-right: 10px;
 					}
 
-					&.active, &:hover {
+					&.active,
+					&:hover {
 						color: #fff;
 						background-color: #4caba6;
 					}
