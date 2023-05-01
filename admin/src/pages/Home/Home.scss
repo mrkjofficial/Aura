@@ -2,12 +2,13 @@
 	display: flex;
 	flex: 5;
 
-	.wrapper {
+	.home__container {
 		display: flex;
 		flex-direction: column;
+		margin-top: 20px;
 		width: 100%;
 
-		.home-widgets {
+		.home__widgets {
 			display: flex;
 		}
 	}

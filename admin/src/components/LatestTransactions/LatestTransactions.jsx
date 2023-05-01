@@ -1,4 +1,5 @@
 import "./LatestTransactions.scss";
+import { Cached, Clear, Done } from "@mui/icons-material";
 
 const LatestTransactions = ({ latesttransactions }) => {
 	return (
@@ -23,9 +24,24 @@ const LatestTransactions = ({ latesttransactions }) => {
 							<td className="latest-transactions__date">{transaction.date}</td>
 							<td className="latest-transactions__amount">{transaction.amount}</td>
 							<td className="latest-transactions__status">
-								<button className={`latest-transactions__button ${transaction.status}`}>
-									{transaction.status}
-								</button>
+								{transaction.status === "approved" && (
+									<button className="latest-transactions__button approved">
+										<Done className="latest-transactions__display-icon" />
+										Approved
+									</button>
+								)}
+								{transaction.status === "pending" && (
+									<button className="latest-transactions__button pending">
+										<Cached className="latest-transactions__display-icon" />
+										Pending
+									</button>
+								)}
+								{transaction.status === "declined" && (
+									<button className="latest-transactions__button declined">
+										<Clear className="latest-transactions__display-icon" />
+										Declined
+									</button>
+								)}
 							</td>
 						</tr>
 					))}

@@ -61,9 +61,11 @@ const Users = () => {
 	];
 	return (
 		<div className="users">
-			<div className="users__title-container">
+			<div className="users__heading">
 				<h1 className="users__title">Users</h1>
-				<button className="users__add-button">Add</button>
+				<button className="users__add-button" onClick={() => navigate("/user/create")}>
+					Add
+				</button>
 			</div>
 			<DataGrid
 				className="users__table"

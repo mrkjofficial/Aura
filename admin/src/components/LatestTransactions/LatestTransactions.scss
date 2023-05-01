@@ -46,27 +46,34 @@
 
 			.latest-transactions__status {
 				.latest-transactions__button {
+					align-items: center;
 					border: none;
 					border-radius: 10px;
+					color: var(--light);
 					cursor: pointer;
-					max-width: 80px;
+					display: flex;
+					justify-content: center;
+					max-width: 100px;
 					padding: 10px;
 					text-transform: capitalize;
 					width: 100%;
 
 					&.approved {
-						background-color: #e5faf2;
-						color: #3bb077;
+						background-color: var(--success);
 					}
 
 					&.pending {
-						background-color: #ebf1fe;
-						color: #2a7ade;
+						background-color: var(--warning);
 					}
 
 					&.declined {
-						background-color: #fff0f1;
-						color: #d95087;
+						background-color: var(--danger);
+					}
+
+					.latest-transactions__display-icon {
+						height: 16px;
+						margin-right: 5px;
+						width: 16px;
 					}
 				}
 			}

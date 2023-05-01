@@ -1,17 +1,22 @@
 .navbar {
+	background-color: var(--primary);
+	box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
 	height: 50px;
 	position: sticky;
+	top: 0;
 	width: 100%;
-	z-index: 999;
-	.navbar__wrapper {
+	z-index: 100;
+
+	.navbar__container {
 		align-items: center;
 		display: flex;
 		height: 100%;
 		justify-content: space-between;
 		padding: 0px 20px;
+
 		.navbar--left {
 			.logo {
-				color: #0897b4;
+				color: var(--light);
 				cursor: pointer;
 				font-size: 30px;
 				font-weight: bold;
@@ -22,15 +27,23 @@
 			align-items: center;
 			display: flex;
 			justify-content: center;
-			.icon-container {
+
+			.navbar__icon-container {
 				cursor: pointer;
 				margin-right: 10px;
 				position: relative;
-				.icon-badge {
+
+				.navbar__icon {
+					color: var(--light);
+					height: 32px;
+					width: 32px;
+				}
+
+				.navbar__icon-badge {
 					align-items: center;
-					background-color: red;
+					background-color: var(--danger);
 					border-radius: 50%;
-					color: #fff;
+					color: var(--light);
 					display: flex;
 					font-size: 10px;
 					font-weight: bold;
@@ -42,11 +55,13 @@
 					width: 15px;
 				}
 			}
-			.user-avatar {
+
+			.navbar__user-avatar {
+				border: 2px solid var(--light);
 				border-radius: 50%;
 				cursor: pointer;
-				height: 40px;
-				width: 40px;
+				height: 32px;
+				width: 32px;
 			}
 		}
 	}

@@ -1,19 +1,27 @@
 import "./Home.scss";
 import Chart from "../../components/Chart/Chart";
-import FeaturedInfo from "../../components/FeaturedInfo/FeaturedInfo";
 import NewUsers from "../../components/NewUsers/NewUsers";
+import FeaturedInfo from "../../components/FeaturedInfo/FeaturedInfo";
 import LatestTransactions from "../../components/LatestTransactions/LatestTransactions";
-import {monthly_active_users, new_users, latest_transactions} from "../../data/data.js";
+import { monthly_active_users, new_users, latest_transactions } from "../../data/data.js";
 
 const Home = () => {
+	const stroke = getComputedStyle(document.documentElement).getPropertyValue('--secondary');
 	return (
 		<div className="home">
-			<div className="wrapper">
+			<div className="home__container">
 				<FeaturedInfo />
-				<Chart data={monthly_active_users} datakey={"Active Users"} grid stroke={"#4caba6"} title={"User Analytics"} xlabel={"Month"} />
-				<div className="home-widgets">
-					<NewUsers newusers={new_users}/>
-					<LatestTransactions latesttransactions={latest_transactions}/>
+				<Chart
+					data={monthly_active_users}
+					datakey={"Active Users"}
+					grid
+					stroke={stroke}
+					title={"User Analytics"}
+					xlabel={"Month"}
+				/>
+				<div className="home__widgets">
+					<NewUsers newusers={new_users} />
+					<LatestTransactions latesttransactions={latest_transactions} />
 				</div>
 			</div>
 		</div>

@@ -2,5 +2,23 @@
 
 :root {
 	font-family: "Source Sans Pro", sans-serif;
-	color-scheme: light dark;
+	--danger: #f23030;
+	--dark: #1e232e;
+	--gray: #79717a;
+	--info: #0099dd;
+	--light: #ffffff;
+	--primary: #4caba6;
+	--secondary: #ff6b1a;
+	--success: #0cf25d;
+	--warning: #FFB30D;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
 }

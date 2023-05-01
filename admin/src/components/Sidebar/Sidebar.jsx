@@ -1,38 +1,44 @@
 import "./Sidebar.scss";
 import { Link } from "react-router-dom";
 import {
-	LineStyle,
-	Timeline,
-	TrendingUp,
-	PermIdentity,
-	Storefront,
 	AttachMoney,
 	BarChart,
-	MailOutline,
-	DynamicFeed,
 	ChatBubbleOutline,
-	WorkOutline,
+	DynamicFeed,
+	Home,
+	MailOutline,
+	PermIdentity,
 	Report,
+	Storefront,
+	Timeline,
+	TrendingUp,
+	WorkOutline,
 } from "@mui/icons-material";
 
 const Sidebar = () => {
 	return (
 		<div className="sidebar">
-			<div className="sidebar__wrapper">
+			<div className="sidebar__container">
 				<div className="sidebar__menu">
 					<h3 className="sidebar__title">Dashboard</h3>
 					<ul className="sidebar__list">
 						<li className="sidebar__list-item">
-							<LineStyle className="sidebar__icon" />
-							<Link to="/">Home</Link>
+							<Link to="/" className="sidebar__link">
+								<Home className="sidebar__icon" />
+								Home
+							</Link>
 						</li>
 						<li className="sidebar__list-item">
-							<Timeline className="sidebar__icon" />
-							Analytics
+							<Link to="/" className="sidebar__link">
+								<Timeline className="sidebar__icon" />
+								Analytics
+							</Link>
 						</li>
 						<li className="sidebar__list-item">
-							<TrendingUp className="sidebar__icon" />
-							Sales
+							<Link to="/" className="sidebar__link">
+								<TrendingUp className="sidebar__icon" />
+								Sales
+							</Link>
 						</li>
 					</ul>
 				</div>
@@ -40,20 +46,28 @@ const Sidebar = () => {
 					<h3 className="sidebar__title">Quick Menu</h3>
 					<ul className="sidebar__list">
 						<li className="sidebar__list-item">
-							<PermIdentity className="sidebar__icon" />
-							<Link to="/users">Users</Link>
+							<Link to="/users" className="sidebar__link">
+								<PermIdentity className="sidebar__icon" />
+								Users
+							</Link>
 						</li>
 						<li className="sidebar__list-item">
-							<Storefront className="sidebar__icon" />
-							Products
+							<Link to="/products" className="sidebar__link">
+								<Storefront className="sidebar__icon" />
+								Products
+							</Link>
 						</li>
 						<li className="sidebar__list-item">
-							<AttachMoney className="sidebar__icon" />
-							Transactions
+							<Link to="/" className="sidebar__link">
+								<AttachMoney className="sidebar__icon" />
+								Transactions
+							</Link>
 						</li>
 						<li className="sidebar__list-item">
-							<BarChart className="sidebar__icon" />
-							Reports
+							<Link to="/" className="sidebar__link">
+								<BarChart className="sidebar__icon" />
+								Reports
+							</Link>
 						</li>
 					</ul>
 				</div>
@@ -61,16 +75,22 @@ const Sidebar = () => {
 					<h3 className="sidebar__title">Notifications</h3>
 					<ul className="sidebar__list">
 						<li className="sidebar__list-item">
-							<MailOutline className="sidebar__icon" />
-							Mail
+							<Link to="/" className="sidebar__link">
+								<MailOutline className="sidebar__icon" />
+								Mail
+							</Link>
 						</li>
 						<li className="sidebar__list-item">
-							<DynamicFeed className="sidebar__icon" />
-							Feedback
+							<Link to="/" className="sidebar__link">
+								<DynamicFeed className="sidebar__icon" />
+								Feedback
+							</Link>
 						</li>
 						<li className="sidebar__list-item">
-							<ChatBubbleOutline className="sidebar__icon" />
-							Messages
+							<Link to="/" className="sidebar__link">
+								<ChatBubbleOutline className="sidebar__icon" />
+								Messages
+							</Link>
 						</li>
 					</ul>
 				</div>
@@ -78,16 +98,22 @@ const Sidebar = () => {
 					<h3 className="sidebar__title">Staffs</h3>
 					<ul className="sidebar__list">
 						<li className="sidebar__list-item">
-							<WorkOutline className="sidebar__icon" />
-							Manage
+							<Link to="/" className="sidebar__link">
+								<WorkOutline className="sidebar__icon" />
+								Manage
+							</Link>
 						</li>
 						<li className="sidebar__list-item">
-							<Timeline className="sidebar__icon" />
-							Analytics
+							<Link to="/" className="sidebar__link">
+								<Timeline className="sidebar__icon" />
+								Analytics
+							</Link>
 						</li>
 						<li className="sidebar__list-item">
-							<Report className="sidebar__icon" />
-							Reports
+							<Link to="/" className="sidebar__link">
+								<Report className="sidebar__icon" />
+								Reports
+							</Link>
 						</li>
 					</ul>
 				</div>
