@@ -3,36 +3,36 @@
 	justify-content: space-between;
 
 	.featured-info__item {
-		border-radius: 10px;
-		box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+		border-radius: 0.75rem;
+		box-shadow: 0 0 1rem -0.75rem rgba(0, 0, 0, 0.75);
 		cursor: pointer;
 		flex: 1;
-		margin: 0px 20px;
-		padding: 30px;
+		margin: 0 1.25rem;
+		padding: 2rem;
 
 		.featured-info__title {
-			font-size: 20px;
+			font-size: 1.25rem;
 		}
 
 		.featured-info__money-container {
 			align-items: center;
 			display: flex;
-			margin: 10px 0px;
+			margin: 0.75rem 0;
 
 			.featured-info__money {
-				font-size: 30px;
+				font-size: 2rem;
 				font-weight: 600;
 			}
 
 			.featured-info__money-rate {
 				align-items: center;
 				display: flex;
-				margin-left: 20px;
+				margin-left: 1.25rem;
 
 				.featured-info__money-icon {
 					color: var(--success);
-					font-size: 14px;
-					margin-left: 5px;
+					font-size: 1em;
+					margin-left: 0.25rem;
 
 					&.negative {
 						color: var(--danger);
@@ -41,7 +41,7 @@
 			}
 
 			.featured-info__subtitle {
-				font-size: 16px;
+				font-size: 1em;
 			}
 		}
 	}

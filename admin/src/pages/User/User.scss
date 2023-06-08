@@ -7,7 +7,7 @@
 		justify-content: space-between;
 
 		.user__title {
-			font-size: 32px;
+			font-size: 2rem;
 			font-weight: 600;
 		}
 	}
@@ -16,28 +16,28 @@
 		display: flex;
 
 		.user__view-pane {
-			border-radius: 10px;
-			box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+			border-radius: 0.75rem;
+			box-shadow: 0 0 1rem -0.75rem rgba(0, 0, 0, 0.75);
 			flex: 1;
-			margin-right: 10px;
-			padding: 20px;
+			margin-right: 0.75rem;
+			padding: 1.25rem;
 
 			.user__view-title {
-				font-size: 24px;
+				font-size: 1.5em;
 				font-weight: 600;
 			}
 
 			.user__view-heading {
 				align-items: center;
 				display: flex;
-				margin-top: 20px;
+				margin-top: 1.25rem;
 
 				.user__view-heading-avatar {
 					border-radius: 50%;
-					height: 40px;
-					margin-right: 20px;
+					height: 2.5rem;
+					margin-right: 1.25rem;
 					object-fit: cover;
-					width: 40px;
+					width: 2.5rem;
 				}
 
 				.user__view-heading-title {
@@ -46,37 +46,37 @@
 					justify-content: space-between;
 
 					.user__view-name {
-						font-size: 20px;
+						font-size: 1.25em;
 						font-weight: 600;
 					}
 
 					.user__view-designation {
-						font-size: 14px;
+						font-size: 1em;
 						font-weight: 300;
 					}
 				}
 			}
 
 			.user__view-details {
-				margin-top: 20px;
+				margin-top: 1.25rem;
 
 				.user__view-details-title {
-					font-size: 14px;
+					font-size: 1em;
 					font-weight: 600;
 				}
 
 				.user__view-details-info {
 					align-items: center;
 					display: flex;
-					margin: 20px 0px;
+					margin: 1.25rem 0;
 
 					.user__view-details-icon {
-						font-size: 16px;
-						margin-right: 10px;
+						font-size: 1em;
+						margin-right: 0.75rem;
 					}
 
 					.user__view-details-text {
-						font-size: 16px;
+						font-size: 1em;
 						font-weight: 400;
 					}
 				}
@@ -84,21 +84,21 @@
 		}
 
 		.user__update-pane {
-			border-radius: 10px;
-			box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+			border-radius: 0.75rem;
+			box-shadow: 0 0 1rem -0.75rem rgba(0, 0, 0, 0.75);
 			flex: 2;
-			margin-left: 10px;
-			padding: 20px;
+			margin-left: 0.75rem;
+			padding: 1.25rem;
 
 			.user__update-title {
-				font-size: 24px;
+				font-size: 1.5em;
 				font-weight: 600;
 			}
 
 			.user__update-form {
 				display: flex;
 				justify-content: space-between;
-				margin-top: 20px;
+				margin-top: 1.25rem;
 
 				.user__update-details {
 					display: flex;
@@ -108,21 +108,21 @@
 						display: flex;
 						flex-direction: column;
 						justify-content: center;
-						margin-top: 10px;
+						margin-top: 0.75rem;
 
 						.user__update-label {
-							font-size: 14px;
-							margin-bottom: 5px;
+							font-size: 1em;
+							margin-bottom: 0.25rem;
 						}
 
 						.user__update-input {
 							background-color: transparent;
 							border: none;
-							border-bottom: 1px solid gray;
-							height: 30px;
+							border-bottom: 0.125rem solid gray;
+							height: 2rem;
 							outline: none;
-							padding: 5px;
-							width: 250px;
+							padding: 0.25rem;
+							width: 16rem;
 						}
 					}
 				}
@@ -140,9 +140,9 @@
 
 						.user__update-file-avatar {
 							border-radius: 50%;
-							height: 150px;
+							height: 10rem;
 							object-fit: cover;
-							width: 150px;
+							width: 10rem;
 						}
 
 						.user__update-file-label {
@@ -155,8 +155,8 @@
 							bottom: 0;
 
 							.user__update-file-icon {
-								height: 25px;
-								width: 25px;
+								height: 1.5rem;
+								width: 1.5rem;
 							}
 						}
 
@@ -169,28 +169,28 @@
 						align-items: center;
 						display: flex;
 						justify-content: center;
-						margin-top: 20px;
+						margin-top: 1.25rem;
 
 						.user__update-button {
 							background-color: #fa7f08;
 							border: none;
-							border-radius: 10px;
+							border-radius: 0.75rem;
 							color: white;
 							cursor: pointer;
-							margin-right: 5px;
-							padding: 10px;
-							width: 80px;
+							margin-right: 0.25rem;
+							padding: 0.75rem;
+							width: 5rem;
 						}
 
 						.user__reset-button {
 							background-color: #f24405;
 							border: none;
-							border-radius: 10px;
+							border-radius: 0.75rem;
 							color: white;
 							cursor: pointer;
-							margin-left: 5px;
-							padding: 10px;
-							width: 80px;
+							margin-left: 0.25rem;
+							padding: 0.75rem;
+							width: 5rem;
 						}
 					}
 				}

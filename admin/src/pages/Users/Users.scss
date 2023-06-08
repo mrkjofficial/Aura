@@ -7,28 +7,28 @@
 		display: flex;
 		align-items: center;
 		justify-content: space-between;
-		margin: 0px 20px;
+		margin: 0 1.25rem;
 
 		.users__title {
-			font-size: 32px;
+			font-size: 2em;
 			font-weight: 600;
 		}
 
 		.users__add-button {
 			background-color: #4caba6;
 			border: none;
-			border-radius: 10px;
+			border-radius: 0.75rem;
 			color: white;
 			cursor: pointer;
-			padding: 10px;
-			width: 80px;
+			padding: 0.75rem;
+			width: 5rem;
 		}
 	}
 
 	.users__table {
-		border-radius: 10px;
-		box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
-		margin: 0px 20px;
+		border-radius: 0.75rem;
+		box-shadow: 0 0 1rem -0.75rem rgba(0, 0, 0, 0.75);
+		margin: 0 1.25rem;
 
 		.users__name {
 			align-items: center;
@@ -37,10 +37,10 @@
 
 			.users__user-img {
 				border-radius: 50%;
-				height: 30px;
-				margin-right: 10px;
+				height: 2rem;
+				margin-right: 0.75rem;
 				object-fit: cover;
-				width: 30px;
+				width: 2rem;
 			}
 		}
 
@@ -52,9 +52,9 @@
 
 			.users__status-indicator {
 				border-radius: 50%;
-				height: 10px;
-				margin-right: 10px;
-				width: 10px;
+				height: 0.75rem;
+				margin-right: 0.75rem;
+				width: 0.75rem;
 
 				&.active {
 					color: #4caba6;
@@ -76,12 +76,12 @@
 				border: none;
 				color: #fa7f08;
 				cursor: pointer;
-				margin: 0 5px;
+				margin: 0 0.25rem;
 				outline: none;
 
 				.users__actions-edit-icon {
-					height: 25px;
-					width: 25px;
+					height: 1.5rem;
+					width: 1.5rem;
 				}
 			}
 
@@ -90,12 +90,12 @@
 				border: none;
 				color: #f24405;
 				cursor: pointer;
-				margin: 0 5px;
+				margin: 0 0.25rem;
 				outline: none;
 
 				.users__actions-delete-icon {
-					height: 25px;
-					width: 25px;
+					height: 1.5rem;
+					width: 1.5rem;
 				}
 			}
 		}

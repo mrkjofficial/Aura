@@ -1,12 +1,12 @@
 .new-users {
 	border-radius: 10px;
-	box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+	box-shadow: 0 0 1rem -0.75rem rgba(0, 0, 0, 0.75);
 	flex: 1;
-	margin: 0px 20px;
-	padding: 20px;
+	margin: 0 1.25rem;
+	padding: 1.25rem;
 
 	.new-users__title {
-		font-size: 24px;
+		font-size: 1.5em;
 		font-weight: 600;
 	}
 
@@ -19,24 +19,24 @@
 			align-items: center;
 			display: flex;
 			justify-content: space-between;
-			margin: 25px 0px;
+			margin: 1.5rem 0;
 
 			.new-users__user {
 				display: flex;
 				.new-users__avatar {
-					margin: 0px 10px;
+					margin: 0 0.75rem;
 					.new-users__user-img {
 						border-radius: 50%;
-						height: 40px;
+						height: 2.5rem;
 						object-fit: cover;
-						width: 40px;
+						width: 2.5rem;
 					}
 				}
 
 				.new-users__info {
 					display: flex;
 					flex-direction: column;
-					margin: 0px 10px;
+					margin: 0 0.75rem;
 
 					.new-users__name {
 						font-weight: 600;
@@ -52,17 +52,17 @@
 				align-items: center;
 				background-color: var(--info);
 				border: none;
-				border-radius: 10px;
+				border-radius: 0.75rem;
 				color: var(--light);
 				cursor: pointer;
 				display: flex;
 				justify-content: center;
-				padding: 10px;
+				padding: 0.75rem;
 
 				.new-users__display-icon {
-					height: 16px;
-					margin-right: 5px;
-					width: 16px;
+					height: 1rem;
+					margin-right: 0.25rem;
+					width: 1rem;
 				}
 			}
 		}

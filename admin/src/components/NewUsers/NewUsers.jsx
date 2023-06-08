@@ -17,7 +17,7 @@ const NewUsers = ({ newusers }) => {
 								<span className="new-users__email">{user.email}</span>
 							</div>
 						</div>
-						<button className="new-users__button">
+						<button className="new-users__button" type="button">
 							<Visibility className="new-users__display-icon" />
 							Display
 						</button>

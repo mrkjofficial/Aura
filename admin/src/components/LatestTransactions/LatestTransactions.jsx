@@ -25,19 +25,19 @@ const LatestTransactions = ({ latesttransactions }) => {
 							<td className="latest-transactions__amount">{transaction.amount}</td>
 							<td className="latest-transactions__status">
 								{transaction.status === "approved" && (
-									<button className="latest-transactions__button approved">
+									<button className="latest-transactions__button approved" type="button">
 										<Done className="latest-transactions__display-icon" />
 										Approved
 									</button>
 								)}
 								{transaction.status === "pending" && (
-									<button className="latest-transactions__button pending">
+									<button className="latest-transactions__button pending" type="button">
 										<Cached className="latest-transactions__display-icon" />
 										Pending
 									</button>
 								)}
 								{transaction.status === "declined" && (
-									<button className="latest-transactions__button declined">
+									<button className="latest-transactions__button declined" type="button">
 										<Clear className="latest-transactions__display-icon" />
 										Declined
 									</button>
