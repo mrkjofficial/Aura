@@ -1,3 +1,139 @@
 .new-user {
-    flex: 5;
+	flex: 5;
+
+	.new-user__title {
+		font-size: 2rem;
+		font-weight: 600;
+	}
+
+	.new-user__form {
+		display: flex;
+
+		.new-user__details {
+			display: flex;
+            flex: 2;
+            flex-wrap: wrap;
+
+			.new-user__item {
+				display: flex;
+				flex-direction: column;
+				margin-top: 0.75rem;
+				margin-right: 0.75rem;
+				width: 25rem;
+
+				& > label, p {
+					color: var(--tertiary);
+					font-size: 1rem;
+					font-weight: 600;
+					margin-bottom: 0.75rem;
+				}
+
+				& > input {
+					border: none;
+					border-bottom: 0.125rem solid var(--tertiary);
+					font-size: 0.875rem;
+					height: 1.5rem;
+					outline: none;
+					padding: 0.75rem;
+				}
+
+				& > div {
+					align-items: center;
+					font-size: 1rem;
+					display: flex;
+					height: 1.5rem;
+					padding: 0.5rem;
+
+					& > input {
+						font-size: 1rem;
+						font-weight: 600;
+					}
+
+					& > label {
+						color: var(--tertiary);
+						font-size: 1rem;
+						font-weight: 600;
+						margin: 0.75rem;
+					}
+				}
+
+				& > select {
+					border: none;
+					border-bottom: 0.125rem solid var(--tertiary);
+					font-size: 0.875rem;
+					outline: none;
+					padding: 0.75rem;
+				}
+			}
+		}
+
+        .new-user__picture {
+            align-items: center;
+            display: flex;
+            flex: 1;
+            flex-direction: column;
+            justify-content: space-between;
+
+            .new-user__file {
+                align-items: center;
+                display: flex;
+                position: relative;
+
+                .new-user__avatar {
+                    border-radius: 50%;
+                    height: 15rem;
+                    object-fit: cover;
+                    width: 15rem;
+                }
+
+                .new-user__file-label {
+                    align-items: flex-end;
+                    cursor: pointer;
+                    display: flex;
+                    justify-content: flex-end;
+                    position: absolute;
+                    right: 0;
+                    bottom: 0;
+
+                    .new-user__file-icon {
+                        height: 1.5rem;
+                        width: 1.5rem;
+                    }
+                }
+
+                .new-user__file-input {
+                    display: none;
+                }
+            }
+
+            .new-user__submit-group {
+                align-items: center;
+                display: flex;
+                justify-content: center;
+                margin-top: 1.25rem;
+
+                .new-user__create-button {
+                    background-color: var(--success);
+                    border: none;
+                    border-radius: 0.75rem;
+                    color: white;
+                    cursor: pointer;
+                    margin-right: 0.25rem;
+                    padding: 0.75rem;
+                    width: 8rem;
+                }
+
+                .new-user__reset-button {
+                    background-color: var(--danger);
+                    border: none;
+                    border-radius: 0.75rem;
+                    color: white;
+                    cursor: pointer;
+                    margin-left: 0.25rem;
+                    padding: 0.75rem;
+                    width: 8rem;
+                }
+            }
+        }
+	}
 }

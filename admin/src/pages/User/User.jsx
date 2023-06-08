@@ -4,7 +4,7 @@ import { MailOutline, MyLocation, PersonOutline, Smartphone, Today, Upload } fro
 const User = () => {
 	return (
 		<div className="user">
-			<div className="user__title-container">
+			<div className="user__heading">
 				<h1 className="user__title">Edit User</h1>
 			</div>
 			<div className="user__container">
