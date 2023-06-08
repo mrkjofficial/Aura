@@ -1,16 +1,25 @@
-@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
 :root {
-	font-family: "Source Sans Pro", sans-serif;
-	--danger: #f23030;
-	--dark: #1e232e;
-	--gray: #79717a;
-	--info: #0099dd;
-	--light: #ffffff;
+	/* Font */
+	font-family: Poppins, sans-serif;
+	/* Breakpoints */
+	--sm: 576px;
+	--md: 768px;
+	--lg: 992px;
+	--xl: 1200px;
+	--xxl: 1400px;
+
+	/* Colors */
 	--primary: #4caba6;
 	--secondary: #ff6b1a;
+	--tertiary: #79717a;
 	--success: #0cf25d;
-	--warning: #FFB30D;
+	--danger: #f23030;
+	--warning: #ffb30d;
+	--info: #227cf2;
+	--light: #ffffff;
+	--dark: #1e232e;
 }
 
 body {

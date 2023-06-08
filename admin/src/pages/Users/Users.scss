@@ -15,7 +15,7 @@
 		}
 
 		.users__add-button {
-			background-color: #4caba6;
+			background-color: var(--secondary);
 			border: none;
 			border-radius: 0.75rem;
 			color: white;
@@ -57,11 +57,11 @@
 				width: 0.75rem;
 
 				&.active {
-					color: #4caba6;
+					color: var(--success);
 				}
 
 				&.inactive {
-					color: #f24405;
+					color: var(--danger);
 				}
 			}
 		}
@@ -74,7 +74,7 @@
 			.users__actions-edit {
 				background: none;
 				border: none;
-				color: #fa7f08;
+				color: var(--warning);
 				cursor: pointer;
 				margin: 0 0.25rem;
 				outline: none;
@@ -88,7 +88,7 @@
 			.users__actions-delete {
 				background: none;
 				border: none;
-				color: #f24405;
+				color: var(--danger);
 				cursor: pointer;
 				margin: 0 0.25rem;
 				outline: none;

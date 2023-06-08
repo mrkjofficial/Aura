@@ -172,7 +172,7 @@
 						margin-top: 1.25rem;
 
 						.user__update-button {
-							background-color: #fa7f08;
+							background-color: var(--warning);
 							border: none;
 							border-radius: 0.75rem;
 							color: white;
@@ -183,7 +183,7 @@
 						}
 
 						.user__reset-button {
-							background-color: #f24405;
+							background-color: var(--danger);
 							border: none;
 							border-radius: 0.75rem;
 							color: white;
